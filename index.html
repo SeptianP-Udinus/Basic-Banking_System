@@ -4,22 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tugas Challenge</title>
-    <script src="bank_account.js" defer></script>
 </head>
 <body>
     <h1>
-        Bank Indie
+        Bank Sistem
     </h1>
 
-    <button onclick="tambahSaldo()">
+    <p>Saldo awal: <span id="saldo-awal">0</span></p>
+
+    <button id="TambahSaldoBtn">
         Tambah Saldo
     </button>
 
     <br></br>
 
-    <button onclick="kurangiSaldo()">
+    <button id="KurangiSaldoBtn">
         Kurangi Saldo
     </button>
 
+    <p id="Pesan"></p>
+    <script src="banking_system.js"></script>
 </body>
 </html>
